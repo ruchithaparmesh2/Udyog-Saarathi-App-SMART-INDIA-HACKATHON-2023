@@ -1,0 +1,40 @@
+
+
+.inputbox2 input {
+    width: 80%;
+    margin-bottom: 3.5rem;
+  }
+  
+  .inputbox2 i {
+    position: absolute;
+    right: 8px;
+  
+    font-size: 1.2em;
+    top: 20px;
+  }
+  
+  .spider-man{
+    
+    
+    color: black;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1rem );
+    -webkit-backdrop-filter: blur( 1rem );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+
+  .swing1{
+    margin-left: auto;
+  }
+  @media only screen and (max-width: 610px) {
+    .friends {
+      flex-direction: column;
+    }
+    .swing1{
+      margin-left: 0;
+    }
+   
+  }

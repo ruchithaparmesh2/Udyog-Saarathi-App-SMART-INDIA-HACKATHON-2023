@@ -1,0 +1,58 @@
+
+.fav{
+   
+  
+   
+    display: flex;
+    
+   
+   
+   
+}
+.box1{
+    position: relative;
+}
+
+.input24 {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: 4px solid black;
+    border-radius: 50px;
+    box1-sizing: border-box1;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: black;
+    outline: none;
+    transition: .5s;
+}
+.box1:hover input{
+    max-width: 350px;
+    min-width: 240px;
+     background: white;
+    border-radius: 10px;
+}
+.box1 i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: black;
+    transition: .2s;
+}
+.box1:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+
+.input24 {
+    /* Hide the input text by default */
+    color: transparent;
+  }
+  
+  .input24:hover {
+    /* Show the input text on hover */
+    color: initial;
+  }
